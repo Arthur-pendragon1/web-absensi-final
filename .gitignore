@@ -1,0 +1,32 @@
+# PHP / Composer
+vendor/
+composer.lock
+
+# Local environment
+.env
+.env.*
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Uploads / generated content
+uploads/*
+!uploads/.gitkeep
+
+# Local database or secrets
+includes/email_config.php
+oauth_config.php
+
+# Debug files
+debug_*.php
